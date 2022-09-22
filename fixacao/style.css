@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
   }
+
   body{
     font-family: sans-serif;
     background-color: #004643;
@@ -16,6 +17,8 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative; /*Para o absolute funcionar*/
+    
   }
   
   section{
@@ -25,14 +28,36 @@
     padding: 20px;
     margin: 10px 0;
   }
+
+  .section1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .section2{
+    text-align: center;
+  }
+
+  .section3:active{
+    background-color: #004643;
+  }
+
   
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+
+  footer:hover{
+    background-color: rgb(247, 247, 127);
   }

@@ -1,0 +1,11 @@
+body{
+    color: orange;
+}
+
+.texto-com-background{
+    background-color: yellow;
+}
+
+#texto-com-outra-cor{
+    color: green;
+}

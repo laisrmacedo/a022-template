@@ -1,0 +1,26 @@
+body{
+}
+
+section{
+    text-align: center;
+    margin: 0 auto;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+
+}
+button:hover{
+    background-color: red;
+    border: 1px solid #7a0303;
+    border-radius: 2px;
+    color: white;
+}
+
+button:active{
+    background-color: pink;
+    border: 1px solid #4d3f3f;
+    border-radius: 2px;
+    color: red;
+}
+
